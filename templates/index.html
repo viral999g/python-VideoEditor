@@ -1,0 +1,65 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+                <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+                <meta content="utf-8" http-equiv="encoding">
+        </head>
+    <body>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- [4:22 PM]
+    https://www.youtube.com/embed/oFjR5yj4xHk?ecver=2
+    https://www.youtube.com/embed/ShgGQHeKIlQ?ecver=2 -->
+
+
+    <form id="upload-file"  method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="fileToUpload">
+        <input id="video" style="display:none">
+        
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6aat9QkkhgY?ecver=2" allowfullscreen></iframe>
+        <button class = "upload-file-btn" name="6aat9QkkhgY" value="Download video" type="button" onClick="reply_click(this.name)">Download video</button>
+        </div>
+
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DtP2FkCJlR4" allowfullscreen></iframe>
+        <button class = "upload-file-btn" name="DtP2FkCJlR4" value="Download video" type="button" onClick="reply_click(this.name)">Download video</button>
+        </div>
+
+
+    </form>
+    </body>
+
+    <script>
+
+        function reply_click(clicked_name)
+        {
+            document.getElementById('video').name = clicked_name;
+        }
+
+        $(function() {
+        $('.upload-file-btn').click(function() {
+            var form_data = new FormData($('#upload-file')[0]);
+            $.ajax({
+                type: 'POST',
+                url: 'http://localhost:8100/upload_banner',
+                crossDomain: true,
+                data: form_data,
+                processData: false,
+                async: true,
+                contentType: false,
+                success: function(data) {
+                    console.log(JSON.parse(data));
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.status);
+                    console.log(thrownError);
+                },
+                timeout: 300000
+            });
+        });
+    });
+
+    </script>
+    </html>

@@ -1,0 +1,25 @@
+ffmpeg version N-86111-ga441aa90e8-static http://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2017 the FFmpeg developers
+  built with gcc 5.4.1 (Debian 5.4.1-8) 20170304
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc-5 --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gray --enable-libass --enable-libfreetype --enable-libfribidi --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libzimg
+  libavutil      55. 63.100 / 55. 63.100
+  libavcodec     57. 96.101 / 57. 96.101
+  libavformat    57. 72.101 / 57. 72.101
+  libavdevice    57.  7.100 / 57.  7.100
+  libavfilter     6. 89.101 /  6. 89.101
+  libswscale      4.  7.101 /  4.  7.101
+  libswresample   2.  8.100 /  2.  8.100
+  libpostproc    54.  6.100 / 54.  6.100
+Guessed Channel Layout for Input Stream #0.0 : stereo
+Input #0, s32le, from 'pipe:':
+  Duration: N/A, bitrate: 2822 kb/s
+    Stream #0:0: Audio: pcm_s32le, 44100 Hz, stereo, s32, 2822 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s32le (native) -> mp3 (libmp3lame))
+Output #0, mp3, to 'demoTEMP_MPY_wvf_snd.mp3':
+  Metadata:
+    TSSE            : Lavf57.72.101
+    Stream #0:0: Audio: mp3 (libmp3lame), 44100 Hz, stereo, s32p
+    Metadata:
+      encoder         : Lavc57.96.101 libmp3lame
+size=     450kB time=00:00:28.73 bitrate= 128.2kbits/s speed=57.4x    size=     905kB time=00:00:57.86 bitrate= 128.1kbits/s speed=57.8x    size=    1377kB time=00:01:28.08 bitrate= 128.1kbits/s speed=58.7x    size=    1521kB time=00:01:37.30 bitrate= 128.1kbits/s speed=  59x    
+video:0kB audio:1521kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.016246%

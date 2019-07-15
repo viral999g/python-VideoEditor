@@ -1,0 +1,35 @@
+[MoviePy] >>>> Building video /home/bharat/Downloads/videoEditor/videos/demo.mp4
+[MoviePy] Writing audio in demoTEMP_MPY_wvf_snd.mp3
+[MoviePy] Done.
+[MoviePy] Writing video /home/bharat/Downloads/videoEditor/videos/demo.mp4
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: /home/bharat/Downloads/videoEditor/videos/demo.mp4 
+
+[MoviePy] >>>> Building video /home/bharat/Downloads/videoEditor/videos/demo.mp4
+[MoviePy] Writing audio in demoTEMP_MPY_wvf_snd.mp3
+[MoviePy] Done.
+[MoviePy] Writing video /home/bharat/Downloads/videoEditor/videos/demo.mp4
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: /home/bharat/Downloads/videoEditor/videos/demo.mp4 
+
+[MoviePy] >>>> Building video /home/bharat/Downloads/videoEditor/videos/demo.mp4
+[MoviePy] Writing audio in demoTEMP_MPY_wvf_snd.mp3
+[MoviePy] Done.
+[MoviePy] Writing video /home/bharat/Downloads/videoEditor/videos/demo.mp4
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: /home/bharat/Downloads/videoEditor/videos/demo.mp4 
+
+[MoviePy] >>>> Building video /home/bharat/Downloads/videoEditor/videos/demo.mp4
+[MoviePy] Writing audio in demoTEMP_MPY_wvf_snd.mp3
+[MoviePy] Done.
+[MoviePy] Writing video /home/bharat/Downloads/videoEditor/videos/demo.mp4
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: /home/bharat/Downloads/videoEditor/videos/demo.mp4 
+
+[MoviePy] >>>> Building video /home/bharat/Downloads/videoEditor/videos/demo.mp4
+[MoviePy] Writing audio in demoTEMP_MPY_wvf_snd.mp3
+[MoviePy] Done.
+[MoviePy] Writing video /home/bharat/Downloads/videoEditor/videos/demo.mp4
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: /home/bharat/Downloads/videoEditor/videos/demo.mp4 
+
